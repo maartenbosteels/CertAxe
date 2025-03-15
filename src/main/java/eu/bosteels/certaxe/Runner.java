@@ -11,6 +11,7 @@ public class Runner implements CommandLineRunner  {
 
   @Autowired
   private Driver driver;
+  @SuppressWarnings("HttpUrlsUsage")
   private final LogList xenon = new LogList("xenon2018", "http://ct.googleapis.com/logs/xenon2018/");
 
   @Override
